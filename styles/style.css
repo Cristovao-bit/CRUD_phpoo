@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/04/2021, 14:39:29
+    Author     : ML_se
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+textarea {
+    resize: none;
+}
+
+.bg-dark {
+    background: #000;
+}
+        
+.text-light {
+    color: #fff;
+    font-size: 1em;
+}
+        
+.container {
+    width: 70%;
+    margin: 0 15%;
+}
+        
+.jumbotron {
+    margin-bottom: 30px;
+    padding: 30px 20px;
+    background: #b71c1c;
+}
+
+.title-h2 {
+    margin: 20px 0;
+    font-size: 1.4em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.form-group .form-control,
+.form-group .form-check .form-control{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+}
+
+.form-group .form-check{
+    color: #000;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.form-group .form-check.form-check-inline{
+    margin-right: 5px;
+}
+
+.table {
+    width: 100%;
+    margin: 20px 0;
+    color: #000;
+    background: #fff;
+}
+
+.table .thead {
+    background: #1b5e20;
+}
+
+.table .thead th {
+    text-align: left;
+    padding: 10px;
+}
+
+.table .tbody td {
+    padding: 5px 10px;
+    border-bottom: 1px solid #1b5e20;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.btn-success {
+    background: #1b5e20;
+}
+
+.btn-success:hover {
+    background: #2e7d32;
+}
+
+.btn-primary {
+    background: #0d47a1;
+}
+
+.btn-primary:hover {
+    background: #1565c0;
+}
+
+.btn-danger {
+    background: #d50000;
+}
+
+.btn-danger:hover {
+    background: #b71c1c;
+}
+
+.alert {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.alert-sucess {
+    border: 1px solid #1b5e20;
+    color: #1b5e20;
+    background: #a5d6a7;
+}
+
+.alert-danger {
+    border: 1px solid #b71c1c;
+    color: #b71c1c;
+    background: #ef9a9a;
+}
